@@ -15,7 +15,6 @@ The raw data forming the basis of this analysis was downloaded from the followin
 
 **Human Activity Recognition Using Smartphones Dataset
 Version 1.0**
-
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Universit‡ degli Studi di Genova.
@@ -45,14 +44,14 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 3. The script will create a file called „tidy_data.txt“ in the same directory.
 
 ###Cleaning of the data
-The tidy data set re-combines the test and training data sets from the original data. It only includes measurements on the standard deviation and the mean of the different measurements. More specifically, it provides the average of each mean and standard deviation variable for each activity measured and for each subject observed.
+The tidy data set re-combines the test and training data sets from the original data set in the „UCI HAR Dataset“ directory. It only includes measurements on the standard deviation and the mean of the different measurements. More specifically, it provides the average of each mean and standard deviation variable for each activity measured and for each subject observed.
 For a more detailed description of how the cleaning script works, please consult the README.
 
-##Description of the variables in the tidy_data.txt file
+##Description of the variables in the resulting tidy_data.txt file
  - The clean dataset consist of 68 columns and 180 rows (including the header row).
  - The variable ‚activity‘ contains one of the following activities observed: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
  - The variable ‚subject’ contains an ID between 1 to 30, indicating the experiment participant.
- - The remaining variables containt the averages of all the measurements on the standard deviation and the mean of the different measurements for each activity and subject observed. For more information on the measurements, please see ‚features_info.txt‘ in the original data. 
+ - The remaining variables contain the averages of all the measurements on the standard deviation and the mean of the different measurements for each activity and subject observed. For more information on the single measurements, please see ‚features_info.txt‘ in the original data. 
 
 ### Variable names
  [1] "activity"                                                
